@@ -33,10 +33,12 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/img_kri"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
-                        android:background="@drawable/background_bottm_menu"/>
+                        android:background="@drawable/bg_kri"
+                        app:shapeAppearanceOverlay="@style/Roundimageview"/>
 
                     <TextView
                         android:id="@+id/text_e"
@@ -55,10 +57,12 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/img_pkn"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
-                        android:background="@drawable/background_bottm_menu"/>
+                        android:background="@drawable/bg_pkn"
+                        app:shapeAppearanceOverlay="@style/Roundimageview"/>
 
                     <TextView
                         android:id="@+id/text_w"
@@ -77,10 +81,12 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/img_pbi"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
-                        android:background="@drawable/background_bottm_menu"/>
+                        android:background="@drawable/bg_pbi"
+                        app:shapeAppearanceOverlay="@style/Roundimageview"/>
 
                     <TextView
                         android:id="@+id/text_s"
@@ -105,10 +111,12 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/img_tak"
                         android:layout_width="97dp"
                         android:layout_height="85dp"
-                        android:background="@drawable/background_bottm_menu"/>
+                        android:background="@drawable/bg_tak"
+                        app:shapeAppearanceOverlay="@style/Roundimageview"/>
 
                     <TextView
                         android:id="@+id/text_e"
@@ -127,10 +135,12 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/img_rbr"
                         android:layout_width="97dp"
                         android:layout_height="85dp"
-                        android:background="@drawable/background_bottm_menu"/>
+                        android:background="@drawable/bg_rbr"
+                        app:shapeAppearanceOverlay="@style/Roundimageview"/>
 
                     <TextView
                         android:id="@+id/text_w"

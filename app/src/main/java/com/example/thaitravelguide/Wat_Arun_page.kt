@@ -7,10 +7,13 @@ import android.os.Bundle
 import android.widget.MediaController
 import android.widget.ScrollView
 import android.widget.Toast
+import com.r0adkll.slidr.Slidr
+import com.r0adkll.slidr.model.SlidrInterface
 import kotlinx.android.synthetic.main.activity_wat_arun_page.*
 
 class Wat_Arun_page : AppCompatActivity() {
 
+    private lateinit var slidr: SlidrInterface
     var mediaController : MediaController? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,6 +51,8 @@ class Wat_Arun_page : AppCompatActivity() {
         btn_map.setOnClickListener {
             openMaps()
         }
+
+        slidr = Slidr.attach(this)
     }
 
     private fun openMaps() {

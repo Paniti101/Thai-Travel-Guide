@@ -20,6 +20,11 @@ class CentralActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+
+
+
+
         slidr = Slidr.attach(this)
     }
 }

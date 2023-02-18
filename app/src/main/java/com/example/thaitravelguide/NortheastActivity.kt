@@ -13,6 +13,13 @@ class NortheastActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_northeast)
 
+
+
+
+
+
+
+
         slidr = Slidr.attach(this)
     }
 }
